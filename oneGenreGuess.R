@@ -10,6 +10,10 @@ musicValues <- read.csv("bluesTest.csv", header=TRUE)
 dataset <- dataset[,-1]
 musicValues <- musicValues[,-1]
 
+# remove mfcc columns
+dataset <- dataset[, -(7:26)]
+musicValues <- musicValues[, -(7:26)]
+
 # Load library
 library(dplyr)
 library(na.tools)
