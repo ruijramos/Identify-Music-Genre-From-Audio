@@ -1,1 +1,1 @@
-# AI-Identify-music-genre-from-an-audio-file
+# AI - Identify music genre from an audio file
