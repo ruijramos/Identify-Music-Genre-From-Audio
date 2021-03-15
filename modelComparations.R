@@ -5,9 +5,6 @@ dataset <- read.csv("data.csv", header=TRUE)
 # remove file name column
 dataset <- dataset[,-1]
 
-# remove mfcc columns
-dataset <- dataset[, -(7:26)]
-
 # Load library
 library(dplyr)
 library(na.tools)
