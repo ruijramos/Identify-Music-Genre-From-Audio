@@ -16,4 +16,4 @@ Selena Gomez (Pop)	Country		Classical		Country
 Ottawan (Disco)		Country		Reggae			Rock
 Improvisation (Blues)	Classical	Classical		Blues
 
-Hit Percentage		30%		50%			100%
+Hit Percentage		33%		40%			80%
