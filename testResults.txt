@@ -1,0 +1,7 @@
+Genre			kNN		Naive Bayes		Random Forest
+Blues			Classical	Country			Blues
+Classical		Classical	Classical		Classical
+Rock			Disco		HipHop			Rock
+Disco			Metal		Disco			Disco
+HipHop			Blues		Reggae			HipHop
+Hit Percentage		20%		20%			100%
