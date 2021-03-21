@@ -4,4 +4,9 @@ Classical		Classical	Classical		Classical
 Rock			Disco		HipHop			Rock
 Disco			Metal		Disco			Disco
 HipHop			Blues		Reggae			HipHop
-Hit Percentage		20%		20%			100%
+Reggae			Country		Reggae			Reggae			
+Pop			Pop		Pop			Pop
+Country			HipHop		Pop			Country
+Jazz			Classical	Classical		Jazz
+Metal			Metal		Metal			Metal
+Hit Percentage		30%		50%			100%
