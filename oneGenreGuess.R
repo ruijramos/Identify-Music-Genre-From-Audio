@@ -4,7 +4,7 @@
 dataset <- read.csv("data.csv", header=TRUE)
 
 # Import music values
-musicValues <- read.csv("testSongs/discoFromYoutube.csv", header=TRUE)
+musicValues <- read.csv("testSongs/metal3FromYoutube.csv", header=TRUE)
 
 # remove file name column
 dataset <- dataset[,-1]
