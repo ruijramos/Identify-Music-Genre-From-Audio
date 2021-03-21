@@ -9,4 +9,11 @@ Pop			Pop		Pop			Pop
 Country			HipHop		Pop			Country
 Jazz			Classical	Classical		Jazz
 Metal			Metal		Metal			Metal
+
+Slipknot (Metal)	Metal		HipHop			Disco
+Bethoven (Classical)	Classical	Classical		Classical
+Selena Gomez (Pop)	Country		Classical		Country
+Ottawan (Disco)		Country		Reggae			Rock
+Improvisation (Blues)	Classical	Classical		Blues
+
 Hit Percentage		30%		50%			100%
