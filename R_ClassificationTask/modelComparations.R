@@ -1,7 +1,7 @@
 # First tests and model comparisons
 
 # Import dataset
-dataset <- read.csv("data.csv", header=TRUE)
+dataset <- read.csv("../data.csv", header=TRUE)
 # remove file name column
 dataset <- dataset[,-1]
 

@@ -1,10 +1,10 @@
 # Get genre of a unique music
 
 # Import dataset
-dataset <- read.csv("data.csv", header=TRUE)
+dataset <- read.csv("../data.csv", header=TRUE)
 
 # Import music values
-musicValues <- read.csv("testSongs/countryFromYoutube.csv", header=TRUE)
+musicValues <- read.csv("../testCSVs/countryFromYoutube.csv", header=TRUE)
 
 # remove file name column
 dataset <- dataset[,-1]
