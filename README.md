@@ -7,3 +7,15 @@ Music has always been both multi-faceted and deeply rooted in each cultural back
 This classification, that has been evolving over time, is not always easy to achieve. Sometimes a genre can be hard to define, despite music of the same genre sharing similar properties such as tempo, beat, and rhythm. As such, devising an algorithm to classify music by its genre is a nigh impossible task. An efficient alternative to hard coding such program, is to use machine learning algorithms to accomplish this task. These Artificial Intelligence models are able to learn from data containing already classified music, and attempt to accurately determine the genre of further audio samples.
 
 We used a Python script to create a data set of extracted musical features, and used that data to train three distinct machine learning algorithms R, for solving the classification task. We then analyzed and compared the accuracy of each of these three algorithms.
+
+### Who We are
+
+<table>
+    <tbody>
+        <tr>
+            <td><a href="https://github.com/ruijramos">Rui Ramos</a></td>
+            <td><a href="https://github.com/DuarteNRP">Duarte Pereira</a></td>
+            <td><a href="https://github.com/RoninKingfisher">Isac Novo</a></td>
+        </tr>
+    </tbody>
+</table>
