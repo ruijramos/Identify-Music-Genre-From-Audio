@@ -8,6 +8,21 @@ This classification, that has been evolving over time, is not always easy to ach
 
 We used a Python script to create a data set of extracted musical features, and used that data to train three distinct machine learning algorithms R, for solving the classification task. We then analyzed and compared the accuracy of each of these three algorithms.
 
+### Hot It Works
+
+1. Get a .wav file of a song of your choice.
+
+2. Run the following command:
+```
+python3 Python_ExtractFeatures/inputSong.py <song.wav>
+```
+3. After running the previous command, a .csv file will be generated. After this, in the R_ClassificationTask/oneGenreGuess.R script change the path to the generated .csv as shown below:
+```
+# Import music values
+musicValues <- read.csv("../Python_ExtractFeatures/song.csv", header=TRUE)
+```
+4. Run the R_ClassificationTask/oneGenreGuess.R script and view the results of the 3 models.
+
 ### Who We are
 
 <table>
@@ -19,3 +34,4 @@ We used a Python script to create a data set of extracted musical features, and 
         </tr>
     </tbody>
 </table>
+
