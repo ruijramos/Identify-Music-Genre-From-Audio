@@ -1,31 +1,30 @@
-# feature extractoring and preprocessing data
+# Feature extractoring and Preprocessing data
 import librosa 
 import pandas as pd
 import numpy as np
 import os
 import csv
 
-#filter warnings
+# Filter warnings
 import warnings
 warnings.filterwarnings('ignore')
 
-#csv header with file name and all attributes to classification
+# Csv header with file name and all attributes to classification
 header = 'filename chroma_stft rms spectral_centroid spectral_bandwidth rolloff zero_crossing_rate'
 for i in range(1, 21):
     header += f' mfcc{i}'
 header += ' label'
 header = header.split()
 
-#write header into csv
+# Write header into csv
 file = open('data.csv', 'w', newline='')
 with file:
     writer = csv.writer(file)
     writer.writerow(header)
 
-#genres
 genres = 'blues classical country disco hiphop jazz metal pop reggae rock'.split()
 
-#write each attribute of each song in data.csv
+# Write each attribute of each song in data.csv
 for g in genres:
     for filename in os.listdir(f'genres/{g}'):
         songname = f'genres/{g}/{filename}'
@@ -48,7 +47,7 @@ for g in genres:
             writer = csv.writer(file)
             writer.writerow(to_append.split())
 
-#print data
+# Print data
 data = pd.read_csv('data.csv')
 print(data.shape)
 data = data.drop(['filename'],axis=1)
