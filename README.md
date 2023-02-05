@@ -35,7 +35,7 @@ musicValues <- read.csv("../Python_ExtractFeatures/song.csv", header=TRUE)
     </tbody>
 </table>
 
-### Used languages/Frameworks 💻
+### Used languages/frameworks 💻
 
 <div>
   <img src="https://github.com/devicons/devicon/blob/master/icons/python/python-original.svg" title="Python" alt="Python" width="40" height="40"/>&nbsp;
